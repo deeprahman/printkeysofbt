@@ -85,7 +85,7 @@ int qlength(QE *queue)
 
 void printLevel(NODE *root)
 {
-    int nodeCount;
+    int nodeCount; // Tracks the nodes on a level
     if (root == NULL)
         return;
     QE *queue = 0;          // create a FIFO queue
